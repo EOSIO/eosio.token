@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.5)
 
 project(eosio_token)
 
-set(VERSION_MAJOR 1)
-set(VERSION_MINOR 10)
+set(VERSION_MAJOR 2)
+set(VERSION_MINOR 0)
 set(VERSION_PATCH 0)
 set(VERSION_SUFFIX develop)
 
@@ -19,8 +19,8 @@ find_package(eosio.cdt)
 
 message(STATUS "Building eosio.token v${VERSION_FULL}")
 
-set(EOSIO_CDT_VERSION_MIN "1.7")
-set(EOSIO_CDT_VERSION_SOFT_MAX "1.7")
+set(EOSIO_CDT_VERSION_MIN "1.8")
+set(EOSIO_CDT_VERSION_SOFT_MAX "1.8")
 #set(EOSIO_CDT_VERSION_HARD_MAX "")
 
 ### Check the version of eosio.cdt
