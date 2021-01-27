@@ -13,11 +13,19 @@ cd CONTRACTS_DIR
 
 Pull the source
 ```sh
+<<<<<<< HEAD:docs/02_guides/01_how-to-create-issue-and-transfer-a-token.md
 git clone https://github.com/EOSIO/eosio.token --branch master --single-branch
 ```
 
 ```sh
 cd eosio.token/contracts/eosio.token
+=======
+git clone https://github.com/EOSIO/eosio.contracts --branch master --single-branch
+```
+
+```sh
+cd eosio.contracts/contracts/eosio.token
+>>>>>>> release/2.0.x:docs/04_guides/05_how-to-create-issue-and-transfer-a-token.md
 ```
 
 ## Step 2: Create Account for Contract
