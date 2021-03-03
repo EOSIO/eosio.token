@@ -31,6 +31,6 @@
 *.out
 *.app
 
-build/*
+build/
 .DS_Store
-.vscode/*
+.vscode

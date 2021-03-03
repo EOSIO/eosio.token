@@ -9,7 +9,7 @@ The following unprivileged contract(s) are also part of the system.
    * [eosio.token](./contracts/eosio.token)
 
 Dependencies:
-* [eosio.cdt v1.7.x](https://github.com/EOSIO/eosio.cdt/releases/tag/v1.7.0)
+* [eosio.cdt v1.8.x](https://github.com/EOSIO/eosio.cdt/releases/tag/v1.8.0-rc1)
 * [eosio v2.1.x](https://github.com/EOSIO/eos/releases/tag/v2.1.0-rc2) (optional dependency only needed to build unit tests)
 
 ## Build
