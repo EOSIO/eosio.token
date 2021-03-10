@@ -7,6 +7,6 @@ set -e # exit on failure of any "simple" command (excludes &&, ||, or | chains)
 # fail if we didn't find it
 [[ -z "$CMAKE_FRAMEWORK_PATH" ]] && exit 1
 # export variables
-echo "" >> /eosio.contracts/docker/environment.Dockerfile # necessary if there is no '\n' at end of file
-echo "ENV CMAKE_FRAMEWORK_PATH=$CMAKE_FRAMEWORK_PATH" >> /eosio.contracts/docker/environment.Dockerfile
-echo "ENV EOSIO_ROOT=$CMAKE_FRAMEWORK_PATH" >> /eosio.contracts/docker/environment.Dockerfile
+echo "" >> /eosio.token/docker/environment.Dockerfile # necessary if there is no '\n' at end of file
+echo "ENV CMAKE_FRAMEWORK_PATH=$CMAKE_FRAMEWORK_PATH" >> /eosio.token/docker/environment.Dockerfile
+echo "ENV EOSIO_ROOT=$CMAKE_FRAMEWORK_PATH" >> /eosio.token/docker/environment.Dockerfile
