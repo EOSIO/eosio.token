@@ -10,11 +10,6 @@
 #include <eosio/chain/exceptions.hpp>
 #include <Runtime/Runtime.h>
 
-<<<<<<< HEAD
-=======
-// #include "eosio.system_tester.hpp"
-
->>>>>>> develop
 // using namespace eosio_system;
 #define BOOST_TEST_STATIC_LINK
 
