@@ -14,7 +14,7 @@ Dependencies:
 
 ## Build
 
-To build the contracts follow the instructions in [Build and deploy](https://developers.eos.io/manuals/eosio.token/latest/build-and-deploy) section.
+To build the contracts follow the instructions in [Build and deploy](./docs/01_build-and-deploy.md) section.
 
 ## Contributing
 
